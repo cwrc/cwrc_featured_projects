@@ -1,0 +1,11 @@
+name = CWRC: Featured projects
+core = 7.x
+package = CWRC
+version = 7.x-1.0
+dependencies[] = fe_nodequeue
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[fe_nodequeue][] = featured_projects
+features[features_api][] = api:2
+features[views_view][] = nodequeue_projects_featured
+features_exclude[dependencies][ctools] = ctools
