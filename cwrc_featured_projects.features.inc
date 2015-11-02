@@ -11,6 +11,9 @@ function cwrc_featured_projects_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "borealis_sb" && $api == "borealis_sb_default") {
     return array("version" => "1");
   }
+  if ($module == "ds" && $api == "ds") {
+    return array("version" => "1");
+  }
 }
 
 /**
