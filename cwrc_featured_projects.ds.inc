@@ -18,7 +18,7 @@ function cwrc_featured_projects_ds_field_settings_info() {
   $ds_fieldsetting->view_mode = 'featured_carousel';
   $ds_fieldsetting->settings = array(
     'title' => array(
-      'weight' => '-3',
+      'weight' => '-4',
       'label' => 'hidden',
       'format' => 'default',
       'formatter_settings' => array(
@@ -26,6 +26,11 @@ function cwrc_featured_projects_ds_field_settings_info() {
         'wrapper' => 'h3',
         'class' => '',
       ),
+    ),
+    'node_link' => array(
+      'weight' => '-1',
+      'label' => 'hidden',
+      'format' => 'default',
     ),
   );
   $export['node|project|featured_carousel'] = $ds_fieldsetting;
@@ -52,12 +57,14 @@ function cwrc_featured_projects_ds_layout_settings_info() {
         0 => 'title',
         1 => 'field_logo',
         2 => 'body',
+        3 => 'node_link',
       ),
     ),
     'fields' => array(
       'title' => 'ds_content',
       'field_logo' => 'ds_content',
       'body' => 'ds_content',
+      'node_link' => 'ds_content',
     ),
     'classes' => array(),
     'wrappers' => array(
