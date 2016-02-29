@@ -17,8 +17,6 @@ function cwrc_featured_projects_default_fe_block_settings() {
     'css_class' => '',
     'custom' => 0,
     'delta' => '66553d96d3282749a55e20a1851a2cac',
-    'i18n_block_language' => array(),
-    'i18n_mode' => 0,
     'module' => 'views',
     'node_types' => array(),
     'pages' => '<front>',
