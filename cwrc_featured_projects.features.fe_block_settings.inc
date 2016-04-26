@@ -19,14 +19,14 @@ function cwrc_featured_projects_default_fe_block_settings() {
     'delta' => '66553d96d3282749a55e20a1851a2cac',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => 'islandora/object/islandora:root',
     'roles' => array(),
     'themes' => array(
       'de_theme' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'de_theme',
-        'weight' => -2,
+        'weight' => -38,
       ),
     ),
     'title' => '',
