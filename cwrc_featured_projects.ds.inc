@@ -28,7 +28,7 @@ function cwrc_featured_projects_ds_field_settings_info() {
       ),
     ),
     'node_link' => array(
-      'weight' => '-1',
+      'weight' => '-2',
       'label' => 'hidden',
       'format' => 'default',
     ),
@@ -54,15 +54,15 @@ function cwrc_featured_projects_ds_layout_settings_info() {
   $ds_layout->settings = array(
     'regions' => array(
       'ds_content' => array(
-        0 => 'title',
-        1 => 'field_logo',
+        0 => 'field_logo',
+        1 => 'title',
         2 => 'body',
         3 => 'node_link',
       ),
     ),
     'fields' => array(
-      'title' => 'ds_content',
       'field_logo' => 'ds_content',
+      'title' => 'ds_content',
       'body' => 'ds_content',
       'node_link' => 'ds_content',
     ),
