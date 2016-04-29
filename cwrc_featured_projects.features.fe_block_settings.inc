@@ -23,7 +23,7 @@ function cwrc_featured_projects_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'de_theme' => array(
-        'region' => 'content',
+        'region' => 'slider_region',
         'status' => 1,
         'theme' => 'de_theme',
         'weight' => -38,
