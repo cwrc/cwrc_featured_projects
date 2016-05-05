@@ -23,10 +23,10 @@ function cwrc_featured_projects_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'de_theme' => array(
-        'region' => 'slider_region',
+        'region' => 'project_banner',
         'status' => 1,
         'theme' => 'de_theme',
-        'weight' => -38,
+        'weight' => -39,
       ),
     ),
     'title' => '',
