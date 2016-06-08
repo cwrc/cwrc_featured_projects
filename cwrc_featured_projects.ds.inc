@@ -56,14 +56,14 @@ function cwrc_featured_projects_ds_layout_settings_info() {
       'ds_content' => array(
         0 => 'field_logo',
         1 => 'title',
-        2 => 'body',
+        2 => 'field_project_intro',
         3 => 'node_link',
       ),
     ),
     'fields' => array(
       'field_logo' => 'ds_content',
       'title' => 'ds_content',
-      'body' => 'ds_content',
+      'field_project_intro' => 'ds_content',
       'node_link' => 'ds_content',
     ),
     'classes' => array(),
