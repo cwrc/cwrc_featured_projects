@@ -7,6 +7,8 @@
 
 include_once 'cwrc_featured_projects.features.inc';
 
+/* Hooks. */
+
 /**
  * Implements hook_entity_info_alter().
  */
